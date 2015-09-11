@@ -55,12 +55,7 @@ var Modal = React.createClass({
     customShowHandler: PropTypes.func,
     customHideHandler: PropTypes.func,
     forceToFront: PropTypes.bool,
-    containerPointerEvents: PropTypes.oneOf([
-      'box-none',
-      'none',
-      'box-only',
-      'auto',
-    ]),
+    containerPointerEvents: PropTypes.string,
   },
 
   getDefaultProps(): any {
@@ -111,11 +106,11 @@ var Modal = React.createClass({
       return React.addons.cloneWithProps(customCloseButton, null);
     } else if (!hideCloseButton && onClose) {
       return (
-        <TouchableOpacity onPress={onClose}>
-          <View style={styles.closeButton}>
+        <View style={styles.closeButton}>
+          <TouchableOpacity onPress={onClose}>
             <Text style={styles.closeButtonText}>Close</Text>
-          </View>
-        </TouchableOpacity>
+          </TouchableOpacity>
+        </View>
       );
     }
   },

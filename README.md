@@ -4,8 +4,6 @@ A `<Modal>` component for react-native. This is still very much a work
 in progress and only handles the simplest of cases, ideas and
 contributions are very welcome.
 
-**Warning**: A Modal component is now built into React Native as of v0.10-rc, so this library is no longer necessary. Check out [this commit](https://github.com/facebook/react-native/commit/7d19ff3dcb3f5e51cc8c3abe8f2638b2a394253c) on facebook/react-native for more information!
-
 ![Demo](https://raw.githubusercontent.com/brentvatne/react-native-modal/master/demo.gif)
 
 ## Add it to your project

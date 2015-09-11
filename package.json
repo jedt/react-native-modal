@@ -1,9 +1,13 @@
 {
   "name": "react-native-modal",
-  "version": "0.3.10",
+  "version": "0.3.8",
   "description": "A <Modal /> component for react-native",
   "main": "Modal.ios.js",
-  "author": "Brent Vatne <brentvatne@gmail.com> (https://github.com/brentvatne)",
+  "author": {
+    "name": "Brent Vatne",
+    "email": "brentvatne@gmail.com",
+    "url": "https://github.com/brentvatne"
+  },
   "contributors": [
     {
       "name": "Dmitri Voronianski",
@@ -24,14 +28,42 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:brentvatne/react-native-modal.git"
+    "url": "git+ssh://git@github.com/brentvatne/react-native-modal.git"
   },
   "dependencies": {
     "react-tween-state": "^0.0.5",
-    "react-native-overlay": "^0.3.0",
+    "react-native-overlay": "^0.2.2",
     "react-native-blur": ">=0.5.2"
   },
   "peerDependencies": {
     "react-native": ">=0.4.3"
-  }
+  },
+  "gitHead": "2bfb2bc6f0aaba087dbc101b1b920f1e61816466",
+  "bugs": {
+    "url": "https://github.com/brentvatne/react-native-modal/issues"
+  },
+  "homepage": "https://github.com/brentvatne/react-native-modal#readme",
+  "_id": "react-native-modal@0.3.8",
+  "scripts": {},
+  "_shasum": "883d47a14f18ad398478ec79c496b1c6b5eec30f",
+  "_from": "react-native-modal@>=0.3.8 <0.4.0",
+  "_npmVersion": "2.10.1",
+  "_nodeVersion": "0.12.4",
+  "_npmUser": {
+    "name": "brentvatne",
+    "email": "brentvatne@gmail.com"
+  },
+  "dist": {
+    "shasum": "883d47a14f18ad398478ec79c496b1c6b5eec30f",
+    "tarball": "http://registry.npmjs.org/react-native-modal/-/react-native-modal-0.3.8.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "brentvatne",
+      "email": "brentvatne@gmail.com"
+    }
+  ],
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/react-native-modal/-/react-native-modal-0.3.8.tgz",
+  "readme": "ERROR: No README data found!"
 }
